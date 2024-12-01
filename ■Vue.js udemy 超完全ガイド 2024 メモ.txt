@@ -1,0 +1,57 @@
+■Vue.js udemy 超完全ガイド 2024
+
+・Vite => vue.jsをjavascriptへ変換する
+・
+
+
+node.js => Vite => vue.js
+
+※ create vue をインストールして、create vueを使うというコマンド
+・プロジェクト作成
+npm create vue@latest
+
+●package.json
+
+・dependencies　=> 本番環境
+
+・devDependencies => 
+
+上記に記載されたものはまだインストールされていない。
+
+※ node modules にインストールされる。
+＄npm install
+
+※ scripts （）の中のパラメータが実行される
+※ Windowsのコマンドプロンプトから実行の場合、コマンドプロンプトを管理者で実行。
+もしくは、vueのプロジェクトを、OneDrive以外のフォルダに移動させて作成する。
+＄npm run dev
+
+※ 公開用の dist フォルダが作られる
+＄npm run build
+
+※ dist フォルダの動きを確認する
+＄npm run preview 
+
+※ コードが正しく記述されているか確認する
+＄npm run lint
+
+※ コードを綺麗に整えてくれる
+$npm run format
+
+-------------------------------------------
+
+■VScode 拡張機能
+
+Vue.volar
+dbaeumer.vscode-eslint
+EditorConfig.EditorConfig
+esbenp.prettier-vscode
+
+
+
+
+
+
+
+
+---------------------------------
